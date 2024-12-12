@@ -1,0 +1,37 @@
+{
+    "ai_backend": {
+        "active_backend": "huggingface",
+        "huggingface": {
+            "api_key": "",
+            "model": "mistralai/Mistral-7B-Instruct-v0.1",
+            "endpoint": "https://api-inference.huggingface.co/models/"
+        },
+        "lmstudio": {
+            "host": "localhost",
+            "port": 1234,
+            "model_path": ""
+        }
+    },
+    "ui": {
+        "theme": "dark",
+        "chat_colors": {
+            "user_bubble": "#2B5278",
+            "ai_bubble": "#3F3F3F",
+            "background": "#1E1E1E"
+        },
+        "font": {
+            "family": "Segoe UI",
+            "size": 10
+        },
+        "window": {
+            "width": 400,
+            "height": 600,
+            "position": "right"
+        }
+    },
+    "history": {
+        "max_messages": 100,
+        "auto_save": true,
+        "save_path": "chat_history"
+    }
+}
